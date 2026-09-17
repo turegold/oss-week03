@@ -1,18 +1,18 @@
 {
   "place": {
-    "name": "Busan",
+    "name": "Incheon",
     "country": "South Korea",
-    "latitude": 35.10168,
-    "longitude": 129.03004
+    "latitude": 37.45646,
+    "longitude": 126.70515
   },
   "raw": {
-    "latitude": 35.1,
-    "longitude": 129,
-    "generationtime_ms": 0.12111663818359375,
+    "latitude": 37.45,
+    "longitude": 126.6875,
+    "generationtime_ms": 0.19419193267822266,
     "utc_offset_seconds": 32400,
     "timezone": "Asia/Seoul",
     "timezone_abbreviation": "GMT+9",
-    "elevation": 16,
+    "elevation": 42,
     "current_units": {
       "time": "iso8601",
       "interval": "seconds",
@@ -22,8 +22,8 @@
     "current": {
       "time": "2026-09-17T18:45",
       "interval": 900,
-      "temperature_2m": 23.5,
-      "weather_code": 2
+      "temperature_2m": 22.7,
+      "weather_code": 1
     },
     "daily_units": {
       "time": "iso8601",
@@ -38,19 +38,19 @@
         "2026-09-19"
       ],
       "temperature_2m_max": [
-        25.1,
-        23.7,
-        25.2
+        25.6,
+        26.5,
+        26.8
       ],
       "temperature_2m_min": [
-        21.2,
-        21.5,
-        22.4
+        15,
+        16.9,
+        17
       ],
       "weather_code": [
         3,
-        53,
-        2
+        1,
+        1
       ]
     }
   }
