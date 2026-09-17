@@ -41,7 +41,7 @@ sleep(10).then(() => console.log("F"));
 
 console.log("G");
 
-// prediction:
-// actual:
-// why I was wrong (one line per miss):
+// prediction: A -> G -> C -> D -> F -> E -> B
+// actual: A -> D -> G -> C -> F -> E -> B
+// why I was wrong (one line per miss): work 함수가 async지만 D 출력에 대해서는 비동기로 동작하지 않는다는 것을 간과하였다.
 //
